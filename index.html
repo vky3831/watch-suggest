@@ -3,10 +3,9 @@
 <head>
 	<title>Watch Suggest</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<style type="text/css">
-		.card-columns {
-    		column-count: 3;}
-	</style>
+	<link rel="stylesheet" href="mystyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
 </head>
 <body>
 	
@@ -14,6 +13,8 @@
 	  <h1 class="display-4 ">Welcome to <b>Watch Suggest</b></h1>
 	  <p class="lead ">Based on Youtube Review Videos</p>
 	</div>
+
+<!-- MOVIE LISTS STARTS HERE -->
 
 	<div class="card-columns">
 		<div class="card">
@@ -121,7 +122,7 @@
 		      <h5 class="card-title">Top 10 Hollywood Movies(PART 24)</h5>
 		      <p class="card-text">MOVIES BEYOND IMAGINATION SERIES <span class="badge badge-warning" style="float: right;">IMDb</span></p>
 		    </div>
-		    <ul class="list-group list-group-flush">
+		    <ul class="list-group list-group-flush" id="list4">
 
 			    <li class="list-group-item"><p><span class="badge badge-primary">#1.1</span> Spirited Away <span class="badge badge-warning" style="float: right;">8.6</span></p><small>2001 Family/Fantasy 2h 5m </small><span class="badge badge-success" style="float: right;">93% &#x1F44D;</span></li>
 
@@ -143,7 +144,7 @@
 
 			    <li class="list-group-item"><p><span class="badge badge-primary">#9</span> Don Jon <span class="badge badge-warning" style="float: right;">6.5</span></p><small> 2013 Romance/Comedy 1h 30m </small><span class="badge badge-success" style="float: right;">82% &#x1F44D;</span></li>
 
-			    <li class="list-group-item"><p><span class="badge badge-primary">#10</span> World Invasion: Battle Los Angeles <span class="badge badge-warning" style="float: right;">5.7</span></p><small> 2011 Action/Sci-fi 1h 56m </small><span class="badge badge-success" style="float: right;">80% &#x1F44D;</span></li>
+			    <li class="list-group-item"><p><span class="badge badge-primary">#10</span><a data-toggle="modal" data-target="#Modal" class="pointerCursor" id="WIBLA2011" onclick="getModalData(event)"> World Invasion: Battle Los Angeles </a><span class="badge badge-warning" style="float: right;">5.7</span></p><small> 2011 Action/Sci-fi 1h 56m </small><span class="badge badge-success" style="float: right;">80% &#x1F44D;</span></li>
 
 		  	</ul>
 		  	<div class="card-body">
@@ -151,14 +152,49 @@
   			</div>
 		</div>
 
-
-
-
-
-
-
+		
 
 
 	</div>
+<!-- MOVIE LISTS ENDS HERE -->
+
+<!-- MODALS STARTS HERE-->
+
+
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLabel">Loading...</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        Loading...
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+        <a target="_blank" role="button" class="btn btn-danger " href="#" id="trailer">Trailer</a>
+        <a target="_blank" role="button" class="btn btn-primary " href="#" id="watch">Watch</a>
+        <a target="_blank" role="button" class="btn btn-warning" href="#" id="imdb">IMDb</a>
+        <a target="_blank" role="button" class="btn btn-secondary" href="#" id="magneturi">MagnetURI</a>
+        <a target="_blank" role="button" class="btn btn-success" href="#" id="torrent">Torrent</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- MODAL ENDS HERE -->
+
+<!-- SCRIPS ADDED HERE -->
+<script src="myscript.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>

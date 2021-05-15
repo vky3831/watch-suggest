@@ -3,3 +3,9 @@
 
 .pointerCursor{
     cursor: pointer;}
+
+@media (max-width: 980px){
+    .card-columns {
+        column-count: 2;
+    }
+}

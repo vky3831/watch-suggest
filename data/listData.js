@@ -5,7 +5,7 @@
 // STEP 1: ADD LIST "ID" IN THE ARRAY NAMELY listArray
 // var listArray = ["list1","list2","list3","list4"];
 
-var listArray = ["list4"];
+var listArray = ["list1","list4"];
 
 var listData = {};
 
@@ -29,6 +29,25 @@ listData.listID = {
 	_8 : ["#8", "id", "name", "imdb_rating", "genre", "like"],
 	_9 : ["#9", "id", "name", "imdb_rating", "genre", "like"],
 	_10 :["#10","id", "name", "imdb_rating", "genre", "like"]
+}
+
+listData.list1 = {
+
+	card_title : "Top 10 Hollywood Movies(PART 27)",
+	card_text : "MOVIES BEYOND IMAGINATION SERIES",
+	tube_link : "https://www.youtube.com/watch?v=GAb7JtC-7Ns",
+
+	// _0 : [rank, id, name, imdb_rating, genre, like%]
+	_1 : ["#1", "G2000", "Gladiator", "8.5", "2000 Action/Adventure 2h 51m", "92"],
+	_2 : ["#2", "GF1990", "GoodFellas", "8.7", "1990 Crime/Drama 2h 28m", "93"],
+	_3 : ["#3", "TSWA2010", "The Secret World of Arrietty", "7.6", "2010 Family/Anime 1h 35m", "93"],
+	_4 : ["#4", "TYFS2005", "Thank You For Smoking", "7.6", "2005 Drama/Comedy 1h 32m", "88"],
+	_5 : ["#5", "D132004", "District 13", "7.1", "2004 Action/Thriller 1h 24m", "90"],
+	_6 : ["#6", "C2004", "Collateral", "7.5", "2004 Thriller/Crime 2 hours", "86"],
+	_7 : ["#7", "GZ2010", "Green Zone", "6.8", "2010 War/Action 1h 55m", "88"],
+	_8 : ["#8", "TC2017", "The Captain", "7.4", "2017 War/Drama 1h 59m", "90"],
+	_9 : ["#9", "THHE2006", "The Hills Have Eyes", "6.4", "2006 Horror/Slasher 1h 48m", "84"],
+	_10 :["#10","TO2001", "The One", "5.9", "2001 Action/Sci-fi 1h 27m", "82"]
 }
 
 

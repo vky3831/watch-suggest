@@ -16,6 +16,96 @@ modalData.MOVIE_SERIES_ID = {
 	imdb: ""
 }
 
+modalData.TO2001 = {
+	torrent: "",
+	magnetURI: "",
+	description: "A police officer sets out to kill all versions of himself in a parallel universe in a bid to gain immortality.",
+	watch: "",
+	trailer: "",
+	imdb: ""
+}
+
+modalData.THHE2006 = {
+	torrent: "",
+	magnetURI: "",
+	description: "The Hills Have Eyes is a 2006 American horror film and remake of Wes Craven's 1977 film of the same name. It was written by filmmaking partners Alexandre Aja and Grégory Levasseur of the French horror film High Tension, and directed by Aja.",
+	watch: "",
+	trailer: "",
+	imdb: ""
+}
+
+modalData.TC2017 = {
+	torrent: "",
+	magnetURI: "",
+	description: "During the Second World War, a young German soldier attempts to escape a horrific regime by impersonating a Nazi officer.",
+	watch: "",
+	trailer: "",
+	imdb: ""
+}
+
+modalData.GZ2010 = {
+	torrent: "",
+	magnetURI: "",
+	description: "During the US-led occupation of Baghdad in the early days of the Iraqi war, officer Roy Miller leads a team of professionals to find weapons of mass destruction.",
+	watch: "",
+	trailer: "",
+	imdb: ""
+}
+
+modalData.C2004 = {
+	torrent: "",
+	magnetURI: "",
+	description: "Max, a cab driver, is shocked after he learns that his passenger, Vincent, is an assassin who is on a deadly mission to kill people. However, he must stop Vincent before it is too late.",
+	watch: "",
+	trailer: "",
+	imdb: ""
+}
+
+modalData.D132004 = {
+	torrent: "",
+	magnetURI: "",
+	description: "Captain Damien must team up with Leito, a local insurgent from District 13, to defuse a neutron bomb that has fallen into the hands of a local drug lord, Taha, and rescue Leito's sister Lola.",
+	watch: "",
+	trailer: "",
+	imdb: ""
+}
+
+modalData.TYFS2005 = {
+	torrent: "",
+	magnetURI: "",
+	description: "Nick Naylor, a lobbyist for the cigarette business, struggles to explain the nature of his work to his 12-year-old son while trying to be a role model to him.",
+	watch: "",
+	trailer: "",
+	imdb: ""
+}
+
+modalData.TSWA2010 = {
+	torrent: "",
+	magnetURI: "",
+	description: "Arrietty, a tiny teenager, lives with her parents in the recesses of a suburban home, unbeknown to the homeowner and housekeeper. Like others of her kind, Arrietty remains hidden from her human hosts, but occasionally ventures forth from beneath the floorboards to borrow sugar cubes and other supplies. A secret friendship forms when 12-year-old Shawn meets Arrietty, but their relationship could spell danger for Arrietty's family.",
+	watch: "",
+	trailer: "",
+	imdb: ""
+}
+
+modalData.GF1990 = {
+	torrent: "https://www.1377x.to/torrent/2951261/Goodfellas-1990-BluRay-1080p-YTS-YIFY/",
+	magnetURI: "magnet:?xt=urn:btih:B17364CA86A982B54DF38B25B978E1D074605C29&dn=Goodfellas+%281990%29+%5BBluRay%5D+%5B1080p%5D+%5BYTS%5D+%5BYIFY%5D&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce",
+	description: "Young Henry Hill, with his friends Jimmy and Tommy, begins the climb from being a petty criminal to a gangster on the mean streets of New York.",
+	watch: "https://www.netflix.com/in/title/70002022",
+	trailer: "https://www.youtube.com/watch?v=2ilzidi_J8Q",
+	imdb: "https://www.imdb.com/title/tt000099685/"
+}
+
+modalData.G2000 = {
+	torrent: "https://www.1377x.to/torrent/502402/Gladiator-2000-720p-BrRip-x264-YIFY/",
+	magnetURI: "magnet:?xt=urn:btih:3FBFACC87CC7108B60BB64D5C3A38FBB8226B21E&dn=Gladiator+%282000%29+720p+BrRip+x264+-+YIFY&tr=udp%3A%2F%2Ftracker.yify-torrents.com%2Fannounce&tr=udp%3A%2F%2Ftwig.gs%3A6969&tr=udp%3A%2F%2Ftracker.publichd.eu%2Fannounce&tr=http%3A%2F%2Ftracker.publichd.eu%2Fannounce&tr=udp%3A%2F%2Ftracker.police.maori.nz%2Fannounce&tr=udp%3A%2F%2Ftracker.1337x.org%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969&tr=udp%3A%2F%2Ftracker.istole.it%3A80&tr=udp%3A%2F%2Ftracker.ccc.de%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.yify-torrents.com%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ffr33dom.h33t.com%3A3310%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce",
+	description: "Commodus takes over power and demotes Maximus, one of the preferred generals of his father, Emperor Marcus Aurelius. As a result, Maximus is relegated to fighting till death as a gladiator.",
+	watch: "https://www.netflix.com/in/title/60000929",
+	trailer: "https://www.youtube.com/watch?v=AxQajgTyLcM",
+	imdb: "https://www.imdb.com/title/tt0172495/"
+}
+
 modalData.SA2001 = {
 	torrent: "",
 	magnetURI: "",

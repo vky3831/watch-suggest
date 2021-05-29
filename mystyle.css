@@ -9,3 +9,21 @@
         column-count: 2;
     }
 }
+
+#content {
+	float: right;
+}
+
+.content-Ptag {
+	margin-bottom: 0px;
+}
+
+.content-item-padding {
+	padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.content-small {
+	font-size: small;
+	margin-bottom: 0px;
+}

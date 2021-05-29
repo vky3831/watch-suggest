@@ -11,7 +11,7 @@ function makeList(item, index) {
 	card = document.createElement('div');
 	card.classList.add("card");
 
-	card.innerHTML = `<div class="card-body">
+	card.innerHTML = `<div class="card-body" id="bookmark_${item}">
 		      <h5 class="card-title">${listData[item].card_title}</h5>
 		      <p class="card-text">${listData[item].card_text} <span class="badge badge-warning" style="float: right;">IMDb</span></p>
 		    </div>
